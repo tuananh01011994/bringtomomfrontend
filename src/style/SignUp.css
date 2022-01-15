@@ -1,0 +1,60 @@
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .screen{
+   width: 100%;
+  }
+  .gradient-custom {
+    background: #c471f5;
+    background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+    background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
+  }
+
+  
+  .signupbutton{
+    width: 50%;
+      background-color: blue ;
+      border: none;
+      color: white;
+      padding: 12px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius:5ch;
+      margin: 0 auto;
+      display: block;
+  }
+
+ 
+.bottom{
+  padding: 20px;
+  text-align: center;
+}
+.signupbutton:hover {
+    background-color:green
+  }
+  
+  .add_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:50%; 
+    margin-top:2%;
+    margin-left:20%; 
+    margin-right:20%;
+  }
+
+  div .error {
+    color: rgb(233, 49, 73);
+    text-align: right;
+    margin: 0.5rem;
+  }
